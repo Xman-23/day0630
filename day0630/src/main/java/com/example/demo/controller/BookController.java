@@ -10,6 +10,7 @@ public class BookController {
 	@GetMapping("/listboard")
 	public String listBoard() {
 		return "게시물 목록";
-		//
+		
+		
 	}
 }
